@@ -69,14 +69,14 @@ const scheduleInfo = ref([
     return: "2026-04-21",
     dates: {
       day1: {
-        date: "2026-04-17 (월)",
+        date: "2026-04-17 (금)",
         title: "삿포로 도착 후 시내 관광",
         activities: {
           common: "시코츠호 방문"
         }
       },
       day2: {
-        date: "2026-04-18 (화)",
+        date: "2026-04-18 (토)",
         title: "삿포로 관광",
         activities: {
           uni: "다테지다이무라 (에도시대 민속촌) 방문, 오이란쇼 및 닌자쇼 관람, 노보리베츠 지옥계곡 탐방, 히츠지가오카 전망대에서 삿포로 시내 조망",
@@ -84,7 +84,7 @@ const scheduleInfo = ref([
         }
       },
       day3: {
-        date: "2026-04-19 (수)",
+        date: "2026-04-19 (일)",
         title: "삿포로 관광",
         activities: {
           uni: "오타루 및 삿포로 시내 관광, 오타루 운하 및 오르골당 방문, 북해도 신궁, 구 훗카이도 도청사, 오도리 공원 탐방",
@@ -92,14 +92,14 @@ const scheduleInfo = ref([
         }
       },
       day4: {
-        date: "2026-04-20 (목)",
+        date: "2026-04-20 (월)",
         title: "삿포로 시내 자유 관광",
         activities: {
           common: "유튜버 맛집 따라 잡기, 삿포로 쇼핑 핫 플레이스 추천, 돈키호테 쇼핑 아이템 추천"
         }
       },
       day5: {
-        date: "2026-04-21 (금)",
+        date: "2026-04-21 (화)",
         title: "체크아웃 > 공항이동",
         activities: []
       }
@@ -143,8 +143,8 @@ const handleSelectTab = (tabId) => {
                     <div class="h-col h-col-12 h-col-md-6">
                       <p><strong>미팅 시간:</strong></p>
                       <ul class="list-check">
-                        <li>유니팀(아시아나) : 2026년 4월 13일(금) 07시 45분</li>
-                        <li>시티팀(대한항공) : 2026년 4월 13일(금) 08시 00분</li>
+                        <li>유니팀(아시아나) : 2026년 4월 13일(월) 07시 45분</li>
+                        <li>시티팀(대한항공) : 2026년 4월 13일(월) 08시 00분</li>
                       </ul>
                     </div>
                   </div>
@@ -361,9 +361,9 @@ const handleSelectTab = (tabId) => {
                   <div class="flight-info return">
                     <div class="flight-area">신치토세 국제공항 출발 - 시티팀(대한항공)</div>
                     <div class="flight-route">
-                      <div class="city">삿포로 (CTS)<br />15:05</div>
+                      <div class="city">삿포로 (CTS)<br />14:50</div>
                       <div class="flight-code"> KE 766</div>
-                      <div class="city">인천 (ICN)<br />18:10</div>
+                      <div class="city">인천 (ICN)<br />17:55</div>
                     </div>
                   </div>
                 </div>
@@ -604,9 +604,9 @@ const handleSelectTab = (tabId) => {
                   <div class="flight-info return">
                     <div class="flight-area">신치토세 국제공항 출발 - 시티팀(대한항공)</div>
                     <div class="flight-route">
-                      <div class="city">삿포로 (CTS)<br />15:05</div>
+                      <div class="city">삿포로 (CTS)<br />14:50</div>
                       <div class="flight-code"> KE 766</div>
-                      <div class="city">인천 (ICN)<br />18:10</div>
+                      <div class="city">인천 (ICN)<br />17:55</div>
                     </div>
                   </div>
                 </div>

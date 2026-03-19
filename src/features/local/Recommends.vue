@@ -426,17 +426,13 @@ const q12Data = ref([{ title:' slide1 ',image :q12_1},{title:' slide2 ',image :q
       </div>
     </div>
 
-    <!-- <div class="shop-notice">
+    <div class="shop-notice">
       <div class="notice-header">
         <div class="category-badge">여행지 정보</div>
         <h3 class="notice-title">
           일본 식당 예약 필수! <br />
           <span>타베로그(Tabelog)</span> 사용 가이드
         </h3>
-        <div class="alert-box">
-          <span class="icon">⚠️</span>
-          <p>삿포로 축제 기간으로 혼잡이 예상되오니 사전 예약을 적극 권장합니다.</p>
-        </div>
       </div>
 
       <div class="notice-intro">
@@ -497,7 +493,7 @@ const q12Data = ref([{ title:' slide1 ',image :q12_1},{title:' slide2 ',image :q
           <li>온라인 예약이 마감된 경우, <strong>전화 예약</strong>은 가능한 매장이 있습니다.</li>
         </ul>
       </div>
-    </div> -->
+    </div>
   </div>
 </template>
 <style lang="scss" scoped>

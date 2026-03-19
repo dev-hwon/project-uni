@@ -3,7 +3,7 @@ import { ImageComponent } from '@/components/image';
 import img1 from '@images/local/activity/activity-img1.jpg';
 import img2 from '@images/local/activity/activity-img2.jpg';
 import img3 from '@images/local/activity/activity-img3.webp';
-// import img4 from "@images/schedule/day1/img2.jpg";
+import img4 from "@images/schedule/day1/img2.jpg";
 import img5 from "@images/schedule/day2/b/img3.jpg";
 import img6 from "@images/schedule/day2/b/img5.jpg";
 

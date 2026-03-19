@@ -47,7 +47,7 @@ import icKakao from '@images/ic-kakao.png';
             <div class="box-wrap">
               <h3 class="box-title">행사 기간</h3>
               <p class="box-content">
-                1차 : 4월13일(월) ~ 4월 17일(토)<br />
+                1차 : 4월13일(월) ~ 4월 17일(금)<br />
                 2차 : 4월17일(금) ~ 4월 21일(화)
               </p>
             </div>
@@ -167,7 +167,7 @@ import icKakao from '@images/ic-kakao.png';
               <h3 class="box-title">비욘드비즈니스트래블즈</h3>
               <p class="box-content">
                 담당자 연락 가능 시간 : 10:00 ~ 17:00<br />
-                대표번호 : 02-3210-2888
+                상담번호 : 070-4116-9082
               </p>
             </div>
             <div class="box-wrap box-kakao">
