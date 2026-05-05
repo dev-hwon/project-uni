@@ -1,4 +1,12 @@
 <script setup>
+import { usePopupStore } from '@/stores/popup';
+import { POPUP_SET } from '@/js/constants/popup-set';
+
+const popupStore = usePopupStore();
+
+const handleOpenPopup = () => {
+  popupStore.openPopup(POPUP_SET.notiVisitJapanPopup);
+};
 </script>
 
 <template>
@@ -52,6 +60,7 @@
                 <ul class="list-dot">
                   <li>URL: <a href="https://services.digital.go.jp/ko/visit-japan-web/" target="_blank">Visit Japan Web | Digital Agency Services</a><br /></li>
                   <li>시점: 일본 출국 전 사전 등록 권장</li>
+                  <li><button type="button" class="btn-noti" @click="handleOpenPopup">Visit Japan 등록 순서 안내</button></li>
                 </ul>
               </div>
 
@@ -222,7 +231,12 @@
 
 .list-group {
   .box-title {
-    color: var(--common-font-colo-default);
+    color: var(--common-font-color-default);
   }
+}
+
+.btn-noti {
+  color: var(--common-font-color-highlight);
+  font-weight: bold;
 }
 </style>

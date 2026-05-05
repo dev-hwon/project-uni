@@ -2,6 +2,7 @@
 import { usePopupStore } from '@/stores/popup';
 import DefaultPopup from './DefaultPopup.vue';
 import AlertPopup from './AlertPopup.vue';
+import NotiVisitJapanPopup from './NotiVisitJapanPopup.vue';
 import QrPopup from './QrPopup.vue';
 
 const props = defineProps({
@@ -30,7 +31,8 @@ const popupStore = usePopupStore();
 const popupMap = {
   default: DefaultPopup,
   alert: AlertPopup,
-  qr: QrPopup
+  qr: QrPopup,
+  notiVisitJapanPopup: NotiVisitJapanPopup
 };
 
 const handlePopupClose = () => {
