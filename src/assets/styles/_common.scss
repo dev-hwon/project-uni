@@ -29,7 +29,7 @@ html,
 body {
   overscroll-behavior-x: none;
   /* 좌우 스크롤 체이닝 방지 */
-  touch-action: pan-y;
+  // touch-action: pan-y;
   /* 세로 스크롤만 허용 */
 }
 

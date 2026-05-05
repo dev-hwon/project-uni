@@ -40,11 +40,11 @@
     .popup-header {
       position: relative;
       width: 100%;
-      font-size: 46px;
+      font-size: 24px;
       font-weight: bold;
-      padding: 60px 0 41px;
+      padding: 20px 0;
       text-align: center;
-      border-bottom: 1px solid var(--popup-header-border-color);
+      border-bottom: 1px solid #ccc;
       .btn-close {
         position: absolute;
         top: 50%;
@@ -53,6 +53,9 @@
         transform: translateY(-50%);
         stroke: var(--app-font-color);
         cursor: pointer;
+      }
+      @media (min-width: 768px) {
+        font-size: 38px;
       }
     }
     .popup-contents {

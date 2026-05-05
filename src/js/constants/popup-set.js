@@ -16,6 +16,13 @@ const POPUP_SET = {
       title: 'QR 코드',
       description: 'QR 코드를 스캔하여 확인하세요'
     },
+  },
+  notiVisitJapanPopup: {
+    type: 'notiVisitJapanPopup',
+    content: {
+      name: 'notiVisitJapanPopup',
+      title: 'Visit Japan 이용순서'
+    },
   }
 }
 
