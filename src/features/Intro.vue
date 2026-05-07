@@ -51,9 +51,8 @@ defineExpose({ isVisible });
             <img :src="introLogo" alt="unicity" />
           </div>
           <div class="h-col h-col-12 col-text entry-animation delay-2">
-            2026 UNICITY INTERNATIONAL<br />
-            BIOS LIFE LEADERSHIP TRIP<br />
-            IN SAPPORO
+            2026 CERAGEM VISION TOUR<br />
+            in SAPPORO
           </div>
         </div>
       </div>

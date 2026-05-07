@@ -208,7 +208,7 @@ const handleOpenPopup = () => {
         left: 80%;
         width: 300px;
       }
-      @media (min-width: 768px) {
+      @include breakpoint('m') {
         &.obj1 {
           top: -68%;
           left: 80%;

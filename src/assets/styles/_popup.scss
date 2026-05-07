@@ -33,7 +33,7 @@
     overflow: hidden;
     z-index: 100;
 
-    @media (min-width: 768px) {
+    @include breakpoint('m') {
       max-width: 800px;
     }
 
@@ -54,7 +54,7 @@
         stroke: var(--app-font-color);
         cursor: pointer;
       }
-      @media (min-width: 768px) {
+      @include breakpoint('m') {
         font-size: 38px;
       }
     }
@@ -84,7 +84,7 @@
           &.disable {
             opacity: 0.4;
           }
-          @media (min-width: 768px) {
+          @include breakpoint('m') {
             font-size: 28px;
             padding: 20px 0;
           }

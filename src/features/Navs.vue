@@ -110,7 +110,7 @@ defineExpose({
           transform: scale(1);
         }
       }
-      @media (max-width: 767px) {
+      @include breakpoint('s') {
         font-size: 14px;
       }
     }

@@ -621,7 +621,7 @@ const handleSelectTab = (tabId) => {
 <style lang="scss" scoped>
 .schedule-page {
   padding: 40px 10px;
-  @media (min-width: 768px) {
+  @include breakpoint('m') {
     padding: 60px 20px 80px;
   }
 
@@ -654,7 +654,7 @@ const handleSelectTab = (tabId) => {
           background-clip: border-box;
           background-origin: border-box;
 
-          @media (min-width: 768px) {
+          @include breakpoint('m') {
             font-size: 16px;
             padding: 16px 32px;
           }
@@ -707,7 +707,7 @@ const handleSelectTab = (tabId) => {
     margin-bottom: 32px;
     text-align: center;
 
-    @media (min-width: 768px) {
+    @include breakpoint('m') {
       font-size: 36px;
       margin-bottom: 48px;
     }
@@ -721,7 +721,7 @@ const handleSelectTab = (tabId) => {
     margin-bottom: 32px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 
-    @media (min-width: 768px) {
+    @include breakpoint('m') {
       padding: 32px;
     }
 
@@ -752,7 +752,7 @@ const handleSelectTab = (tabId) => {
     margin-bottom: 32px;
     text-align: center;
 
-    @media (min-width: 768px) {
+    @include breakpoint('m') {
       padding: 32px;
     }
 
@@ -776,7 +776,7 @@ const handleSelectTab = (tabId) => {
         font-size: 20px;
         font-weight: 700;
 
-        @media (min-width: 768px) {
+        @include breakpoint('m') {
           font-size: 24px;
         }
       }
@@ -816,7 +816,7 @@ const handleSelectTab = (tabId) => {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-    @media (min-width: 768px) {
+    @include breakpoint('m') {
       padding: 32px;
     }
 
@@ -842,7 +842,7 @@ const handleSelectTab = (tabId) => {
         font-weight: 700;
         color: #333;
 
-        @media (min-width: 768px) {
+        @include breakpoint('m') {
           font-size: 24px;
         }
       }
@@ -863,7 +863,7 @@ const handleSelectTab = (tabId) => {
         background-color: var(--common-bg-color);
         transition: box-shadow 0.3s ease;
         margin-bottom: 20px;
-        @media (min-width: 768px) {
+        @include breakpoint('m') {
           font-size: 14px;
         }
       }

@@ -15,7 +15,7 @@ import icKakao from '@images/ic-kakao.png';
       <div class="h-container" style="z-index: 2;">
         <div class="h-row">
           <div class="h-col h-col-12">
-            <h1 class="hero-title">2026 UNICITY INTERNATIONAL<br />BIOS LIFE LEADERSHIP TRIP<br />IN SAPPORO</h1>
+            <h1 class="hero-title">2026 CERAGEM VISION TOUR<br />in SAPPORO</h1>
             <p class="hero-description">
               유니시티의 사장님들과 함께 잊지 못할 순간을 만들기 위해 다채로운 프로그램과 행사를 준비했습니다.<br />
               여행 일정과 프로그램을 확인하시고 자연과 미식,<br />
@@ -39,7 +39,7 @@ import icKakao from '@images/ic-kakao.png';
             <div class="box-wrap">
               <h3 class="box-title">여행 개요</h3>
               <p class="box-content">
-                2026 UNICITY INTERNATIONAL BIOS LIFE LEADERSHIP TRIP IN SAPPORO
+                2026 CERAGEM VISION TOUR in SAPPORO
               </p>
             </div>
           </div>
@@ -220,7 +220,7 @@ import icKakao from '@images/ic-kakao.png';
         left: 80%;
         width: 300px;
       }
-      @media (min-width: 768px) {
+      @include breakpoint('m') {
         &.obj1 {
           top: -68%;
           left: 4%;

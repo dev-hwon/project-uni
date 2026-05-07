@@ -1,3 +1,20 @@
+$breakpoints: (
+  's': 767.9px,
+  'm': 768px,
+  'l': 1024px,
+  'xl': 1280px
+);
+
+// 믹스인 정의
+@mixin breakpoint($breakpoint) {
+  $value: map-get($breakpoints, $breakpoint);
+
+  @if $breakpoint == 's' {
+    @media (max-width: $value) { @content; }
+  } @else {
+    @media (min-width: $value) { @content; }
+  }
+}
 @mixin ellipsis() {
   overflow: hidden;
   text-overflow: ellipsis;

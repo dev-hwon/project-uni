@@ -36,7 +36,7 @@ const handlePopupClose = () => {
 .popup.qr {
   width: 100%;
   height: 100%;
-  @media (min-width: 768px) {
+  @include breakpoint('m') {
     max-width: 900px;
 
   }
@@ -48,7 +48,7 @@ const handlePopupClose = () => {
 }
 .popup-contents {
   padding: 20px;
-  @media (min-width: 768px) {
+  @include breakpoint('m') {
     padding: 40px;
   }
   .noti-image {
@@ -58,14 +58,14 @@ const handlePopupClose = () => {
   .tx-description {
     font-size: 16px;
     text-align: center;
-    @media (min-width: 768px) {
+    @include breakpoint('m') {
       font-size: 20px;
     }
   }
 }
 .popup-footer {
   padding: 0 20px 20px;
-  @media (min-width: 768px) {
+  @include breakpoint('m') {
     padding: 0 40px 40px;
   }
 }

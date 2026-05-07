@@ -179,7 +179,7 @@ import qrCode from '@images/local/airport/qr.png';
       text-align: center;
       margin-top: 20px;
       color: #475569;
-      @media (min-width: 1024px) {
+      @include breakpoint('l') {
         font-size: 18px;
         text-align: left;
         margin-top: 0;
@@ -200,7 +200,7 @@ import qrCode from '@images/local/airport/qr.png';
       &:hover {
         background-color: #2563eb;
       }
-      @media (min-width: 1024px) {
+      @include breakpoint('l') {
         width: auto;
       }
     }

@@ -89,7 +89,7 @@ import img6 from "@images/schedule/day2/b/img5.jpg";
   justify-content: center;
   gap: 12px;
   margin-bottom: 32px;
-  @media (min-width: 768px) {
+  @include breakpoint('m') {
     justify-content: flex-start;
   }
   .tag {

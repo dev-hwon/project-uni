@@ -31,35 +31,35 @@ const handlePopupClose = () => {
 <style lang="scss" scoped>
 .popup.qr {
   width: 100%;
-  @media (min-width: 768px) {
+  @include breakpoint('m') {
     max-width: 500px;
 
   }
 }
 .popup-contents {
   padding: 20px;
-  @media (min-width: 768px) {
+  @include breakpoint('m') {
     padding: 40px;
   }
   .qr-image {
     width: 100%;
     display: block;
     margin-bottom: 20px;
-    @media (min-width: 768px) {
+    @include breakpoint('m') {
       margin-bottom: 40px;
     }
   }
   .tx-description {
     font-size: 16px;
     text-align: center;
-    @media (min-width: 768px) {
+    @include breakpoint('m') {
       font-size: 20px;
     }
   }
 }
 .popup-footer {
   padding: 0 20px 20px;
-  @media (min-width: 768px) {
+  @include breakpoint('m') {
     padding: 0 40px 40px;
   }
 }

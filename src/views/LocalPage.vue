@@ -72,7 +72,7 @@ const handleSelectTab = (tabId) => {
 <style lang="scss" scoped>
 .local-page {
   padding: 40px 10px;
-  @media (min-width: 768px) {
+  @include breakpoint('m') {
     padding: 60px 20px 80px;
   }
 
@@ -103,7 +103,7 @@ const handleSelectTab = (tabId) => {
           background-clip: border-box;
           background-origin: border-box;
 
-          @media (min-width: 768px) {
+          @include breakpoint('m') {
             padding: 14px 32px;
             font-size: 16px;
           }
@@ -137,7 +137,7 @@ const handleSelectTab = (tabId) => {
     margin-bottom: 8px;
     text-align: center;
 
-    @media (min-width: 768px) {
+    @include breakpoint('m') {
       font-size: 36px;
       margin-bottom: 12px;
     }
@@ -150,7 +150,7 @@ const handleSelectTab = (tabId) => {
     text-align: center;
     font-style: italic;
 
-    @media (min-width: 768px) {
+    @include breakpoint('m') {
       font-size: 18px;
     }
   }
@@ -168,7 +168,7 @@ const handleSelectTab = (tabId) => {
         margin-bottom: 8px;
         text-align: center;
 
-        @media (min-width: 768px) {
+        @include breakpoint('m') {
           font-size: 36px;
           margin-bottom: 12px;
         }
@@ -181,7 +181,7 @@ const handleSelectTab = (tabId) => {
         text-align: center;
         font-style: italic;
 
-        @media (min-width: 768px) {
+        @include breakpoint('m') {
           font-size: 18px;
         }
       }
@@ -192,7 +192,7 @@ const handleSelectTab = (tabId) => {
         margin-bottom: 32px;
         text-align: center;
 
-        @media (min-width: 768px) {
+        @include breakpoint('m') {
           font-size: 17px;
         }
       }
@@ -205,7 +205,7 @@ const handleSelectTab = (tabId) => {
         padding-bottom: 12px;
         border-bottom: 2px solid #C2335F;
 
-        @media (min-width: 768px) {
+        @include breakpoint('m') {
           font-size: 24px;
         }
       }
