@@ -2,13 +2,6 @@
 // import { usePopupStore } from '@/stores/popup';
 import { ImageComponent } from '@/components/image';
 // import { POPUP_SET } from '@/js/constants/popup-set';
-import introBg from '@images/local/airport/airport-intro.jpeg';
-import step1 from '@images/local/airport/step1.png';
-import step2 from '@images/local/airport/step2.png';
-import step3 from '@images/local/airport/step3.png';
-import step4 from '@images/local/airport/step4.png';
-import step5 from '@images/local/airport/step5.png';
-import qrCode from '@images/local/airport/qr.png';
 // const popupStore = usePopupStore();
 
 // const handleOpenPopup = () => {
@@ -19,7 +12,7 @@ import qrCode from '@images/local/airport/qr.png';
   <div class="airport-container">
     <h2 class="section-title">공항</h2>
 
-    <ImageComponent :src="introBg" alt="삿포로 공항 이미지" class="main-img mb40" />
+    <ImageComponent :src="'/assets/images/local/airport/airport-intro.jpeg'" alt="삿포로 공항 이미지" class="main-img mb40" />
 
     <section class="content-section">
       <div class="process-steps">
@@ -31,7 +24,7 @@ import qrCode from '@images/local/airport/qr.png';
           <div class="step-body">
             <div class="h-row h-row-align-center">
               <div class="h-col h-col-12 h-col-md-4">
-                <ImageComponent :src="step1" class="step-thumb" />
+                <ImageComponent :src="'/assets/images/local/airport/step1.png'" class="step-thumb" />
               </div>
               <div class="h-col h-col-12 h-col-md-8">
                 <p class="step-text">안내 표지판을 따라 이동하여 여권과 입국 신고서를 제출합니다.</p>
@@ -49,7 +42,7 @@ import qrCode from '@images/local/airport/qr.png';
           <div class="step-body">
             <div class="h-row h-row-align-center">
               <div class="h-col h-col-12 h-col-md-4">
-                <ImageComponent :src="step2" class="step-thumb" />
+                <ImageComponent :src="'/assets/images/local/airport/step2.png'" class="step-thumb" />
               </div>
               <div class="h-col h-col-12 h-col-md-8">
                 <p class="step-text">전광판에서 항공편명을 확인하고 해당 수하물 컨베이어에서 짐을 찾습니다.</p>
@@ -67,10 +60,10 @@ import qrCode from '@images/local/airport/qr.png';
           <div class="step-body">
             <div class="h-row h-row-align-center">
               <div class="h-col h-col-8 h-col-md-4">
-                <ImageComponent :src="step3" class="step-thumb" />
+                <ImageComponent :src="'/assets/images/local/airport/step3.png'" class="step-thumb" />
               </div>
               <div class="h-col h-col-4 h-col-md-2">
-                <ImageComponent :src="qrCode" :alt="'sample'" :aspect-ratio="'auto'" class="step-thumb" />
+                <ImageComponent :src="'/assets/images/local/airport/qr.png'" :alt="'sample'" :aspect-ratio="'auto'" class="step-thumb" />
               </div>
               <div class="h-col h-col-12 h-col-md-6">
                 <p class="step-text">키오스크에 여권 스캔 및 QR 스캔 후 출구로 이동하여 나갑니다.</p>
@@ -89,7 +82,7 @@ import qrCode from '@images/local/airport/qr.png';
           <div class="step-body">
             <div class="h-row h-row-align-center">
               <div class="h-col h-col-12 h-col-md-4">
-                <ImageComponent :src="step4" class="step-thumb" />
+                <ImageComponent :src="'/assets/images/local/airport/step4.png'" class="step-thumb" />
               </div>
               <div class="h-col h-col-12 h-col-md-8">
                 <p class="step-text">로비 밖으로 나와 'Bus' 표지판을 따라 1층 버스 승차장으로 이동합니다.</p>
@@ -107,7 +100,7 @@ import qrCode from '@images/local/airport/qr.png';
           <div class="step-body">
             <div class="h-row h-row-align-center">
               <div class="h-col h-col-12 h-col-md-4">
-                <ImageComponent :src="step5" class="step-thumb" />
+                <ImageComponent :src="'/assets/images/local/airport/step5.png'" class="step-thumb" />
               </div>
               <div class="h-col h-col-12 h-col-md-8">
                 <p class="step-text">가이드 안내에 따라 버스에 탑승합니다.</p>

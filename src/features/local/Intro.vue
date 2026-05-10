@@ -1,13 +1,12 @@
 <script setup>
 import { ImageComponent } from '@/components/image';
-import introBg from '@images/local/intro/bg.jpg';
 </script>
 
 <template>
   <div class="intro-container">
     <h2 class="section-title">삿포로 (SAPPORO)</h2>
 
-    <ImageComponent :src="introBg" alt="삿포로 이미지" class="local-image mb40" />
+    <ImageComponent :src="'/assets/images/local/intro/bg.jpg'" alt="삿포로 이미지" class="local-image mb40" />
 
     <div class="info-grid">
       <div class="info-card">

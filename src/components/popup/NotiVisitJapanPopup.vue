@@ -1,8 +1,5 @@
 <script setup>
 import ImageComponent from "../image/ImageComponent.vue";
-import notiImg from '@images/customs/img.png';
-import notiImg2 from '@images/customs/img2.png';
-import notiImg3 from '@images/customs/img3.jpg';
 const props = defineProps({
   content: {
     type: Object,
@@ -19,9 +16,7 @@ const handlePopupClose = () => {
     <div class="popup-inner">
       <div class="popup-header">{{ props.content.title }}</div>
       <div class="popup-contents">
-        <!-- <ImageComponent :src="notiImg" :aspectRatio="'521 / 361'" alt="" class="noti-image" /> -->
-        <!-- <ImageComponent :src="notiImg2" :aspectRatio="'525 / 1346'" alt="" class="noti-image" /> -->
-        <ImageComponent :src="notiImg3" :aspectRatio="'409 / 1202'" alt="" class="noti-image" />
+        <ImageComponent :src="'/assets/images/customs/img3.jpg'" :aspectRatio="'409 / 1202'" alt="" class="noti-image" />
       </div>
       <div class="popup-footer">
         <div class="btn-wrap">

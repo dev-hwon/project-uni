@@ -1,19 +1,11 @@
 <script setup>
 import { ref } from 'vue';
 import { SwiperComponent } from '@/components/swiper';
-import r1_1 from '@images/local/recommends2/r1-1.png';
-import r1_2 from '@images/local/recommends2/r1-2.png';
-import r1_3 from '@images/local/recommends2/r1-3.png';
-import r2_1 from '@images/local/recommends2/r2-1.png';
-import r2_2 from '@images/local/recommends2/r2-2.png';
-import r3_1 from '@images/local/recommends2/r3-1.jpeg';
-import r3_2 from '@images/local/recommends2/r3-2.png';
-import r4 from '@images/local/recommends2/r4.png';
-
-const r1Data = ref([{ title: 'slide1', image: r1_1 },{ title: 'slide2', image: r1_2 },{ title: 'slide3', image: r1_3 }]);
-const r2Data = ref([{ title: 'slide1', image: r2_1 },{ title: 'slide2', image: r2_2 }]);
-const r3Data = ref([{ title: 'slide1', image: r3_1 },{ title: 'slide2', image: r3_2 }]);
-const r4Data = ref([{ title: 'slide1', image: r4 }]);
+const imageprefix = '/assets/images/local/recommends2/';
+const r1Data = ref([{ title: 'slide1', image: imageprefix + 'r1-1.png' },{ title: 'slide2', image: imageprefix + 'r1-2.png' },{ title: 'slide3', image: imageprefix + 'r1-3.png' }]);
+const r2Data = ref([{ title: 'slide1', image: imageprefix + 'r2-1.png' },{ title: 'slide2', image: imageprefix + 'r2-2.png' }]);
+const r3Data = ref([{ title: 'slide1', image: imageprefix + 'r3-1.jpeg' },{ title: 'slide2', image: imageprefix + 'r3-2.png' }]);
+const r4Data = ref([{ title: 'slide1', image: imageprefix + 'r4.png' }]);
 </script>
 <template>
   <div class="recommends-container">

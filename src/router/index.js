@@ -1,9 +1,10 @@
-import { createRouter, createWebHashHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router'; // createWebHistory, createWebHashHistory
 import { routes } from '@/router/routes';
 // import { useAppStore } from '@/stores/app';
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
+  // history: createWebHistory(import.meta.env.BASE_URL),
   routes: routes
 })
 

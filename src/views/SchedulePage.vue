@@ -2,19 +2,6 @@
 import { ref } from "vue";
 import { TabComponent } from "@/components/tab";
 import { ImageComponent } from '@/components/image';
-import day1_1 from "@images/schedule/day1/img1.jpg";
-import day1_2 from "@images/schedule/day1/img2.jpg";
-import day2_a_1 from "@images/schedule/day2/a/img1.jpg";
-import day2_a_2 from "@images/schedule/day2/a/img2.jpg";
-import day2_a_3 from "@images/schedule/day2/a/img3.jpg";
-import day2_b_1 from "@images/schedule/day2/b/img1.jpg";
-import day2_b_2 from "@images/schedule/day2/b/img2.jpg";
-import day2_b_3 from "@images/schedule/day2/b/img3.jpg";
-import day2_b_4 from "@images/schedule/day2/b/img4.jpg";
-import day2_b_5 from "@images/schedule/day2/b/img5.jpg";
-import day4_1 from "@images/schedule/day4/img1.webp";
-import day4_2 from "@images/schedule/day4/img2.jpg";
-import day4_3 from "@images/schedule/day4/img3.jpg";
 
 const tabs = ref([
   { tabId: "1", tabName: "1차 4월13일 ~ 4월17일" },
@@ -186,7 +173,7 @@ const handleSelectTab = (tabId) => {
                     <div class="h-row h-row-mb">
                       <div class="h-col h-col-12 h-col-md-6">
                         <div class="activity-description">{{ scheduleInfo[0].dates.day1.activities.common }}</div>
-                        <ImageComponent :src="day1_1" alt="시코츠호" />
+                        <ImageComponent :src="'/assets/images/schedule/day1/img1.jpg'" alt="시코츠호" />
                       </div>
                     </div>
                   </div>
@@ -207,16 +194,16 @@ const handleSelectTab = (tabId) => {
                         <div class="activity-description">{{ scheduleInfo[0].dates.day2.activities.uni }}</div>
                         <div class="h-row h-row-mb">
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_a_1" alt="다테지다이무라 (에도시대 민속촌)" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/a/img1.jpg'" alt="다테지다이무라 (에도시대 민속촌)" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_a_2" alt="에도시대 부호의 연회 오이란쇼, 닌자쇼 관람" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/a/img2.jpg'" alt="에도시대 부호의 연회 오이란쇼, 닌자쇼 관람" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_a_3" alt="일본 3대 온천의 마을 노보리베츠의 지옥계곡" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/a/img3.jpg'" alt="일본 3대 온천의 마을 노보리베츠의 지옥계곡" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day1_2" alt="히츠지가오카 전망대" />
+                            <ImageComponent :src="'/assets/images/schedule/day1/img2.jpg'" alt="히츠지가오카 전망대" />
                           </div>
                         </div>
                       </div>
@@ -227,19 +214,19 @@ const handleSelectTab = (tabId) => {
                         <div class="activity-description">{{ scheduleInfo[0].dates.day2.activities.city }}</div>
                         <div class="h-row h-row-mb">
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_1" alt="오타루 및 삿포로 시내 관광" />
+                            <ImageComponent :src="'/assets/images/schedule/day1/img1.jpg'" alt="오타루 및 삿포로 시내 관광" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_2" alt="오타루 운하 및 오르골당 관광" />
+                            <ImageComponent :src="'/assets/images/schedule/day1/img2.jpg'" alt="오타루 운하 및 오르골당 관광" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_3" alt="북해도 신궁" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img3.jpg'" alt="북해도 신궁" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_4" alt="구 훗카이도 도청사" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img4.jpg'" alt="구 훗카이도 도청사" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_5" alt="오도리 공원" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img5.jpg'" alt="오도리 공원" />
                           </div>
                         </div>
                         <div class="section-info">🍴 중식(현지식) / 석식(자유식)</div>
@@ -263,19 +250,19 @@ const handleSelectTab = (tabId) => {
                         <div class="activity-description">{{ scheduleInfo[0].dates.day3.activities.uni }}</div>
                         <div class="h-row h-row-mb">
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_1" alt="오타루 및 삿포로 시내 관광" />
+                            <ImageComponent :src="'/assets/images/schedule/day1/img1.jpg'" alt="오타루 및 삿포로 시내 관광" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_2" alt="오타루 운하 및 오르골당 관광" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img2.jpg'" alt="오타루 운하 및 오르골당 관광" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_3" alt="북해도 신궁" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img3.jpg'" alt="북해도 신궁" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_4" alt="구 훗카이도 도청사" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img4.jpg'" alt="구 훗카이도 도청사" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_5" alt="오도리 공원" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img5.jpg'" alt="오도리 공원" />
                           </div>
                         </div>
                         <div class="section-info">🍴 중식(현지식) / 석식(자유식)</div>
@@ -287,16 +274,16 @@ const handleSelectTab = (tabId) => {
                         <div class="activity-description">{{ scheduleInfo[0].dates.day3.activities.city }}</div>
                         <div class="h-row h-row-mb">
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_a_1" alt="다테지다이무라 (에도시대 민속촌)" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/a/img1.jpg'" alt="다테지다이무라 (에도시대 민속촌)" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_a_2" alt="에도시대 부호의 연회 오이란쇼, 닌자쇼 관람" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/a/img2.jpg'" alt="에도시대 부호의 연회 오이란쇼, 닌자쇼 관람" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_a_3" alt="일본 3대 온천의 마을 노보리베츠의 지옥계곡" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/a/img3.jpg'" alt="일본 3대 온천의 마을 노보리베츠의 지옥계곡" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day1_2" alt="히츠지가오카 전망대" />
+                            <ImageComponent :src="'/assets/images/schedule/day1/img2.jpg'" alt="히츠지가오카 전망대" />
                           </div>
                         </div>
                       </div>
@@ -316,13 +303,13 @@ const handleSelectTab = (tabId) => {
                   <div class="activity-section">
                     <div class="h-row h-row-mb">
                       <div class="h-col h-col-12 h-col-md-4">
-                        <ImageComponent :src="day4_1" alt="유튜버 맛집 따라 잡기" />
+                        <ImageComponent :src="'/assets/images/schedule/day4/img1.webp'" alt="유튜버 맛집 따라 잡기" />
                       </div>
                       <div class="h-col h-col-12 h-col-md-4">
-                        <ImageComponent :src="day4_2" alt="삿포로 쇼핑 핫 플레이스 추천" />
+                        <ImageComponent :src="'/assets/images/schedule/day4/img2.jpg'" alt="삿포로 쇼핑 핫 플레이스 추천" />
                       </div>
                       <div class="h-col h-col-12 h-col-md-4">
-                        <ImageComponent :src="day4_3" alt="돈키호테 쇼핑 아이템 추천" />
+                        <ImageComponent :src="'/assets/images/schedule/day4/img3.jpg'" alt="돈키호테 쇼핑 아이템 추천" />
                       </div>
                     </div>
                     <div class="section-info">🍴 중식(현지식) / 갈라디너(호텔식)</div>
@@ -429,7 +416,7 @@ const handleSelectTab = (tabId) => {
                     <div class="h-row h-row-mb">
                       <div class="h-col h-col-12 h-col-md-6">
                         <div class="activity-description">{{ scheduleInfo[1].dates.day1.activities.common }}</div>
-                        <ImageComponent :src="day1_1" alt="시코츠호" />
+                        <ImageComponent :src="'/assets/images/schedule/day1/img1.jpg'" alt="시코츠호" />
                       </div>
                     </div>
                   </div>
@@ -450,16 +437,16 @@ const handleSelectTab = (tabId) => {
                         <div class="activity-description">{{ scheduleInfo[1].dates.day2.activities.uni }}</div>
                         <div class="h-row h-row-mb">
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_a_1" alt="다테지다이무라 (에도시대 민속촌)" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/a/img1.jpg'" alt="다테지다이무라 (에도시대 민속촌)" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_a_2" alt="에도시대 부호의 연회 오이란쇼, 닌자쇼 관람" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/a/img2.jpg'" alt="에도시대 부호의 연회 오이란쇼, 닌자쇼 관람" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_a_3" alt="일본 3대 온천의 마을 노보리베츠의 지옥계곡" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/a/img3.jpg'" alt="일본 3대 온천의 마을 노보리베츠의 지옥계곡" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day1_2" alt="히츠지가오카 전망대" />
+                            <ImageComponent :src="'/assets/images/schedule/day1/img2.jpg'" alt="히츠지가오카 전망대" />
                           </div>
                         </div>
                       </div>
@@ -470,19 +457,19 @@ const handleSelectTab = (tabId) => {
                         <div class="activity-description">{{ scheduleInfo[1].dates.day2.activities.city }}</div>
                         <div class="h-row h-row-mb">
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_1" alt="오타루 및 삿포로 시내 관광" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img1.jpg'" alt="오타루 및 삿포로 시내 관광" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_2" alt="오타루 운하 및 오르골당 관광" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img2.jpg'" alt="오타루 운하 및 오르골당 관광" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_3" alt="북해도 신궁" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img3.jpg'" alt="북해도 신궁" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_4" alt="구 훗카이도 도청사" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img4.jpg'" alt="구 훗카이도 도청사" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_5" alt="오도리 공원" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img5.jpg'" alt="오도리 공원" />
                           </div>
                         </div>
                         <div class="section-info">🍴 중식(현지식) / 석식(자유식)</div>
@@ -506,19 +493,19 @@ const handleSelectTab = (tabId) => {
                         <div class="activity-description">{{ scheduleInfo[1].dates.day3.activities.uni }}</div>
                         <div class="h-row h-row-mb">
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_1" alt="오타루 및 삿포로 시내 관광" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img1.jpg'" alt="오타루 및 삿포로 시내 관광" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_2" alt="오타루 운하 및 오르골당 관광" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img2.jpg'" alt="오타루 운하 및 오르골당 관광" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_3" alt="북해도 신궁" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img3.jpg'" alt="북해도 신궁" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_4" alt="구 훗카이도 도청사" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img4.jpg'" alt="구 훗카이도 도청사" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_b_5" alt="오도리 공원" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/b/img5.jpg'" alt="오도리 공원" />
                           </div>
                         </div>
                         <div class="section-info">🍴 중식(현지식) / 석식(자유식)</div>
@@ -530,16 +517,16 @@ const handleSelectTab = (tabId) => {
                         <div class="activity-description">{{ scheduleInfo[1].dates.day3.activities.city }}</div>
                         <div class="h-row h-row-mb">
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_a_1" alt="다테지다이무라 (에도시대 민속촌)" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/a/img1.jpg'" alt="다테지다이무라 (에도시대 민속촌)" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_a_2" alt="에도시대 부호의 연회 오이란쇼, 닌자쇼 관람" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/a/img2.jpg'" alt="에도시대 부호의 연회 오이란쇼, 닌자쇼 관람" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day2_a_3" alt="일본 3대 온천의 마을 노보리베츠의 지옥계곡" />
+                            <ImageComponent :src="'/assets/images/schedule/day2/a/img3.jpg'" alt="일본 3대 온천의 마을 노보리베츠의 지옥계곡" />
                           </div>
                           <div class="h-col h-col-12 h-col-md-6">
-                            <ImageComponent :src="day1_2" alt="히츠지가오카 전망대" />
+                            <ImageComponent :src="'/assets/images/schedule/day1/img2.jpg'" alt="히츠지가오카 전망대" />
                           </div>
                         </div>
                       </div>
@@ -559,13 +546,13 @@ const handleSelectTab = (tabId) => {
                   <div class="activity-section">
                     <div class="h-row h-row-mb">
                       <div class="h-col h-col-12 h-col-md-4">
-                        <ImageComponent :src="day4_1" alt="유튜버 맛집 따라 잡기" />
+                        <ImageComponent :src="'/assets/images/schedule/day4/img1.webp'" alt="유튜버 맛집 따라 잡기" />
                       </div>
                       <div class="h-col h-col-12 h-col-md-4">
-                        <ImageComponent :src="day4_2" alt="삿포로 쇼핑 핫 플레이스 추천" />
+                        <ImageComponent :src="'/assets/images/schedule/day4/img2.jpg'" alt="삿포로 쇼핑 핫 플레이스 추천" />
                       </div>
                       <div class="h-col h-col-12 h-col-md-4">
-                        <ImageComponent :src="day4_3" alt="돈키호테 쇼핑 아이템 추천" />
+                        <ImageComponent :src="'/assets/images/schedule/day4/img3.jpg'" alt="돈키호테 쇼핑 아이템 추천" />
                       </div>
                     </div>
                     <div class="section-info">🍴 중식(현지식) / 갈라디너(호텔식)</div>

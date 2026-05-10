@@ -1,6 +1,5 @@
 <script setup>
 import ImageComponent from "../image/ImageComponent.vue";
-import qrCode from '@images/local/airport/qr.png';
 const props = defineProps({
   content: {
     type: Object,
@@ -16,7 +15,7 @@ const handlePopupClose = () => {
   <div class="popup qr">
     <div class="popup-inner">
       <div class="popup-contents">
-        <ImageComponent :src="qrCode" alt="" class="qr-image" />
+        <ImageComponent :src="'/assets/images/local/airport/qr.png'" alt="" class="qr-image" />
         <div class="tx-description"><pre>{{ props.content.description }}</pre></div>
       </div>
       <div class="popup-footer">

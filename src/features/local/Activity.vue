@@ -1,19 +1,11 @@
 <script setup>
 import { ImageComponent } from '@/components/image';
-import img1 from '@images/local/activity/activity-img1.jpg';
-import img2 from '@images/local/activity/activity-img2.jpg';
-import img3 from '@images/local/activity/activity-img3.webp';
-import img4 from "@images/schedule/day1/img2.jpg";
-import img5 from "@images/schedule/day2/b/img3.jpg";
-import img6 from "@images/schedule/day2/b/img5.jpg";
 
 </script>
 <template>
   <div class="activity-container">
     <h2 class="section-title">액티비티</h2>
-
-    <ImageComponent :src="img1" alt="" class="main-img mb20" />
-
+    <ImageComponent :src="'/assets/images/local/activity/activity-img1.jpg'" alt="시코츠호" class="main-img mb20" />
     <div class="info-section">
       <h3 class="section-subtitle">시코츠호 관광</h3>
       <div class="section-details">
@@ -25,7 +17,7 @@ import img6 from "@images/schedule/day2/b/img5.jpg";
       </div>
     </div>
     <div class="section-divider"></div>
-    <ImageComponent :src="img2" alt="" class="main-img mb20" />
+    <ImageComponent :src="'/assets/images/local/activity/activity-img2.jpg'" alt="" class="main-img mb20" />
     <div class="info-section">
       <h3 class="section-subtitle">노보리베츠 관광</h3>
       <div class="section-details">
@@ -37,7 +29,7 @@ import img6 from "@images/schedule/day2/b/img5.jpg";
       </div>
     </div>
     <div class="section-divider"></div>
-    <ImageComponent :src="img3" alt="" class="main-img mb20" />
+    <ImageComponent :src="'/assets/images/local/activity/activity-img3.webp'" alt="" class="main-img mb20" />
     <div class="info-section">
       <h3 class="section-subtitle">오타루 관광</h3>
       <div class="section-details">
@@ -50,7 +42,7 @@ import img6 from "@images/schedule/day2/b/img5.jpg";
     </div>
 
     <div class="section-divider"></div>
-    <ImageComponent :src="img4" alt="" class="main-img mb20" />
+    <ImageComponent :src="'/assets/images/schedule/day1/img2.jpg'" alt="" class="main-img mb20" />
     <div class="info-section">
       <h3 class="section-subtitle">히츠지가오카 전망대</h3>
       <div class="section-details">
@@ -60,7 +52,7 @@ import img6 from "@images/schedule/day2/b/img5.jpg";
     </div>
 
     <div class="section-divider"></div>
-    <ImageComponent :src="img5" alt="" class="main-img mb20" />
+    <ImageComponent :src="'/assets/images/schedule/day2/b/img3.jpg'" alt="" class="main-img mb20" />
     <div class="info-section">
       <h3 class="section-subtitle">홋카이도 신궁</h3>
       <div class="section-details">
@@ -71,7 +63,7 @@ import img6 from "@images/schedule/day2/b/img5.jpg";
     </div>
 
     <div class="section-divider"></div>
-    <ImageComponent :src="img6" alt="" class="main-img mb20" />
+    <ImageComponent :src="'/assets/images/schedule/day2/b/img5.jpg'" alt="" class="main-img mb20" />
     <div class="info-section">
       <h3 class="section-subtitle">오도리 공원</h3>
       <div class="section-details">

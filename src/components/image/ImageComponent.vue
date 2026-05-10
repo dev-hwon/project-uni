@@ -1,7 +1,6 @@
 <script setup>
 const props = defineProps({
   src: {
-    type: String,
     required: true
   },
   alt: {
@@ -18,7 +17,7 @@ const props = defineProps({
 <template>
   <div class="image-component" :style="`aspect-ratio: ${props.aspectRatio}`">
     <div class="image-frame">
-      <img :src="props.src" :alt="props.alt" />
+      <div class="image-element" :style="`background-image: url(${props.src})`"/>
     </div>
     <div v-if="props.alt" class="image-alt">{{ props.alt }}</div>
   </div>

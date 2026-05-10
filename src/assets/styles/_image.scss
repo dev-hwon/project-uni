@@ -5,19 +5,20 @@
 .image-component {
   position: relative;
   width: 100%;
-  aspect-ratio: 4 / 3;
   .image-frame {
     position: relative;
     width: 100%;
     height: 100%;
     border-radius: 8px;
     overflow: hidden;
-    img {
+    .image-element {
       width: 100%;
       height: 100%;
-      background: #f0f0f0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: #f0f0f0;
       transition: all 0.3s ease;
-      object-fit: cover;
     }
   }
   .image-alt {

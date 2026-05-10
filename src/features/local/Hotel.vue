@@ -1,13 +1,12 @@
 <script setup>
 import { ImageComponent } from '@/components/image';
-import introBg from '@images/local/hotel/hotel-intro.jpg';
 </script>
 
 <template>
   <div class="hotel-container">
     <h2 class="section-title">삿포로 그랜드 호텔</h2>
     <!-- 호텔 맵 이미지 -->
-    <ImageComponent :src="introBg" alt="삿포로 그랜드 호텔" class="hotel-image mb40" />
+    <ImageComponent :src="'/assets/images/local/hotel/hotel-intro.jpg'" alt="삿포로 그랜드 호텔" class="hotel-image mb40" />
 
     <div class="info-section">
       <h3 class="section-title">주요 시설</h3>

@@ -1,10 +1,9 @@
 <script setup>
 import { ref, onMounted } from 'vue';
-import introLogo from '@images/intro/logo.png';
 
 const isVisible = ref(false); // 인트로 표시 여부
-const INTRO_KEY = 'hide_intro_until';
-const DAY_IN_MS = 24 * 60 * 60 * 1000;
+// const INTRO_KEY = 'hide_intro_until';
+// const DAY_IN_MS = 24 * 60 * 60 * 1000;
 
 // const closeIntro = () => {
 //   isVisible.value = false;
@@ -48,7 +47,8 @@ defineExpose({ isVisible });
       <div class="h-container h-full-height">
         <div class="h-row h-row-direction-column h-row-justify-center h-row-gap-40 h-full-height">
           <div class="h-col h-col-12 col-logo entry-animation delay-1">
-            <img :src="introLogo" alt="unicity" />
+            CERAGEM
+            <!-- <img src="@images/intro/logo.png" alt="unicity" /> -->
           </div>
           <div class="h-col h-col-12 col-text entry-animation delay-2">
             2026 CERAGEM VISION TOUR<br />
@@ -76,7 +76,7 @@ defineExpose({ isVisible });
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background-image: url('@images/intro/bg.jpg');
+  background-image: url('@images/intro-bg.jpg');
   background-size: cover;
   background-position: center;
   z-index: 1000000;
@@ -104,7 +104,13 @@ defineExpose({ isVisible });
 /* 나머지 기존 스타일 유지 */
 .col-logo {
   img { width: 80%; max-width: 580px; }
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: serif;
+  color: #fff;
+  letter-spacing: 2rem;
   text-align: center;
+  line-height: 1;
 }
 .col-text {
   font-size: clamp(2.4rem, 2.8vw, 4.4rem);
