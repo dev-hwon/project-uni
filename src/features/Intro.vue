@@ -104,7 +104,7 @@ defineExpose({ isVisible });
 /* 나머지 기존 스타일 유지 */
 .col-logo {
   img { width: 80%; max-width: 580px; }
-  font-size: 6rem;
+  font-size: clamp(2rem, 10vw, 12rem);
   font-weight: bold;
   font-family: serif;
   color: #fff;
