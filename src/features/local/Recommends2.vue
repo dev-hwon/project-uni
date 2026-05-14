@@ -145,7 +145,7 @@ const r4Data = ref([{ title: 'slide1', image: imageprefix + 'r4.png' }]);
     color: #1e293b;
     line-height: 1.4;
     span {
-      color: var(--common-font-color-highlight);
+      color: var(--common-color-highlight);
      } // 타베로그 브랜드 포인트 컬러 느낌
   }
 

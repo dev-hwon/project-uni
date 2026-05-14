@@ -4,8 +4,10 @@
   <header class="header">
     <div class="h-container">
       <div class="h-row h-row-align-center h-row-justify-center">
-        <div class="h-col h-col-3 col-logo"><img src="@images/logo.svg" alt="Logo" /></div>
-        <div class="h-col h-col-9 col-title">2026 CERAGEM VISION TOUR in SAPPORO</div>
+        <div class="h-col h-col-3 col-logo">
+          <img src="@images/h-logo.png" alt="Logo" />
+        </div>
+        <div class="h-col h-col-9 col-title">2026 CERAGEM VISION TOUR IN SAPPORO</div>
       </div>
     </div>
   </header>
@@ -20,9 +22,7 @@
 .col-logo {
   img {
     width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 100%;
-    overflow: hidden;
+    aspect-ratio: 179 / 26;
   }
 }
 .col-title {
@@ -38,6 +38,5 @@
   @include breakpoint('l') {
     font-size: 38px;
   }
-
 }
 </style>

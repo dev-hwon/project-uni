@@ -109,13 +109,13 @@ const handleSelectTab = (tabId) => {
           }
 
           &:hover {
-            border-color: #C2335F;
+            border-color: var(--common-color-highlight);
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(25, 115, 75, 0.2);
           }
 
           &.active {
-            background-image: linear-gradient(135deg, #C2335F 0%, #273672 100%);
+            background-image: var(--common-bg-gradient);
             border-color: transparent;
             color: #fff;
             box-shadow: 0 4px 16px rgba(25, 115, 75, 0.3);
@@ -133,7 +133,7 @@ const handleSelectTab = (tabId) => {
   .main-title {
     font-size: 28px;
     font-weight: 700;
-    color: #C2335F;
+    color: var(--common-color-highlight);
     margin-bottom: 8px;
     text-align: center;
 
@@ -164,7 +164,7 @@ const handleSelectTab = (tabId) => {
       .main-title {
         font-size: 28px;
         font-weight: 700;
-        color: #C2335F;
+        color: var(--common-color-highlight);
         margin-bottom: 8px;
         text-align: center;
 
@@ -203,7 +203,7 @@ const handleSelectTab = (tabId) => {
         color: #333;
         margin: 48px 0 24px;
         padding-bottom: 12px;
-        border-bottom: 2px solid #C2335F;
+        border-bottom: 2px solid var(--common-color-highlight);
 
         @include breakpoint('m') {
           font-size: 24px;

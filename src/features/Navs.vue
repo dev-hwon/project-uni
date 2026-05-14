@@ -106,7 +106,7 @@ defineExpose({
       &.router-link-exact-active {
         background-color: #fff;
         &::before {
-          background-color: #C2335F;
+          background-color: var(--common-color-highlight);
           transform: scale(1);
         }
       }

@@ -3,12 +3,12 @@
 
 :root {
   --common-font-family: 'Noto Sans KR', 'Noto Sans', -apple-system, sans-serif;
-  --common-font-color-default: #333;
-  --common-font-color-highlight: #C2335F;
-  --common-font-color-highlight-hover: #dd547d;
+  --common-color-default: #333;
+  --common-color-highlight: #d51c3a;
+  --common-color-highlight-hover: #dd547d;
   --common-bg-color: #f8f9fa;
   --common-bg-gradient-default: linear-gradient(135deg, #dedddd 0%, #e8e8e8 100%);
-  --common-bg-gradient: linear-gradient(135deg, #C2335F 0%, #273672 100%);
+  --common-bg-gradient: linear-gradient(135deg, var(--common-color-highlight) 0%, var(--common-color-highlight) 100%);
 }
 
 *,
@@ -40,7 +40,7 @@ html {
 body {
   position: relative;
   font-family: var(--common-font-family);
-  color: var(--common-font-color-default);
+  color: var(--common-color-default);
   line-height: 1.4;
   // overflow: hidden;
   text-rendering: optimizeLegibility;
@@ -114,7 +114,7 @@ code {
 }
 
 a {
-  color: var(--common-font-color-highlight);
+  color: var(--common-color-highlight);
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -317,10 +317,10 @@ a {
           @color
 ================================================== */
 .color-default {
-  color: var(--common-font-color-default);
+  color: var(--common-color-default);
 }
 .color-highlight {
-  color: var(--common-font-color-highlight);
+  color: var(--common-color-highlight);
 }
 /* ==================================================
           @dimm
@@ -362,7 +362,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--common-font-color-highlight);
+  background: var(--common-color-highlight);
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
@@ -468,7 +468,7 @@ a {
     left: 0;
     font-size: inherit;
     font-weight: bold;
-    color: var(--common-font-color-highlight);
+    color: var(--common-color-highlight);
     transform: translateY(-1px);
   }
 
@@ -500,7 +500,7 @@ a {
   }
 
   strong {
-    color: var(--common-font-color-highlight);
+    color: var(--common-color-highlight);
     font-weight: 600;
   }
 }
@@ -508,7 +508,7 @@ a {
 .section-divider {
   width: 100%;
   height: 1px;
-  background-color: var(--common-font-color-highlight);
+  background-color: var(--common-color-highlight);
   margin: 40px 0;
 }
 
@@ -568,14 +568,14 @@ a {
   .box-title {
     font-size: 18px;
     font-weight: 600;
-    color: var(--common-font-color-highlight);
+    color: var(--common-color-highlight);
     margin-bottom: 12px;
   }
 
   .box-title-strong {
     font-size: 22px;
     font-weight: 700;
-    color: #C2335F;
+    color: var(--common-color-highlight);
     margin-bottom: 28px;
     padding-bottom: 16px;
     border-bottom: 2px solid #f0f0f0;
@@ -590,12 +590,12 @@ a {
     color: #555;
 
     strong {
-      color: var(--common-font-color-highlight);
+      color: var(--common-color-highlight);
       font-weight: 600;
     }
 
     &.warning {
-      color: var(--common-font-color-highlight);
+      color: var(--common-color-highlight);
       font-weight: 500;
     }
   }
@@ -642,11 +642,11 @@ a {
       left: 0;
       font-size: inherit;
       font-weight: bold;
-      color: var(--common-font-color-highlight);
+      color: var(--common-color-highlight);
       transform: translateY(-1px);
     }
     strong {
-      color: var(--common-font-color-highlight);
+      color: var(--common-color-highlight);
       font-weight: 600;
     }
   }
@@ -664,11 +664,11 @@ a {
       position: absolute;
       left: 0;
       font-size: inherit;
-      color: var(--common-font-color-highlight);
+      color: var(--common-color-highlight);
       transform: translateY(-1px);
     }
     strong {
-      color: var(--common-font-color-highlight);
+      color: var(--common-color-highlight);
       font-weight: 600;
     }
   }
@@ -697,7 +697,7 @@ a {
     border-radius: 12px;
     padding: 24px;
     transition: all 0.3s ease;
-    border-left: 4px solid #C2335F;
+    border-left: 4px solid var(--common-color-highlight);
 
     &:hover {
       box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -716,7 +716,7 @@ a {
     .info-card-title {
       font-size: 18px;
       font-weight: 600;
-      color: #C2335F;
+      color: var(--common-color-highlight);
       margin-bottom: 16px;
 
       @include breakpoint('m') {
@@ -734,7 +734,7 @@ a {
       }
 
       strong {
-        color: #C2335F;
+        color: var(--common-color-highlight);
         font-weight: 600;
       }
 
@@ -786,7 +786,7 @@ a {
     color: #555;
 
     strong {
-      color: #C2335F;
+      color: var(--common-color-highlight);
     }
   }
 }
@@ -851,7 +851,7 @@ a {
     &:hover {
       transform: translateY(-6px);
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-      border-color: #C2335F;
+      border-color: var(--common-color-highlight);
     }
     .shop-label {
       position: absolute;
@@ -890,13 +890,13 @@ a {
         .op-name {
           flex: none;
           width: 60px;
-          color: #C2335F;
+          color: var(--common-color-highlight);
           font-weight: 600;
           margin-right: 8px;;
         }
         .op-value {
           .kick {
-            color: #C2335F;
+            color: var(--common-color-highlight);
           }
           .btn-link {
             display: inline-block;
@@ -904,9 +904,9 @@ a {
             border-radius: 4px;
             color: #fff;
             transition: background-color 0.4s;
-            background-color: var(--common-font-color-highlight);
+            background-color: var(--common-color-highlight);
             &:hover {
-              background-color: var(--common-font-color-highlight-hover);
+              background-color: var(--common-color-highlight-hover);
             }
           }
         }
@@ -961,4 +961,14 @@ a {
       font-size: 16px;
     }
   }
+}
+
+/* ==================================================
+          @update-soon
+================================================== */
+.update-soon {
+  font-size: 18px;
+  color: var(--common-color-highlight);
+  text-align: center;
+  padding: 60px 0;
 }

@@ -76,8 +76,7 @@ const handleOpenPopup = () => {
                   항공편명
                 </div>
                 <ul class="list-dot">
-                  <li>유니팀(아시아나) 출국편 <strong>OZ174</strong>, 귀국편 <strong>OZ173</strong></li>
-                  <li>시티팀(대한항공) 출국편 <strong>KE 765</strong>, 귀국편 <strong>KE766</strong></li>
+                  <li>업데이트 예정</li>
                 </ul>
               </div>
             </div>
@@ -231,12 +230,12 @@ const handleOpenPopup = () => {
 
 .list-group {
   .box-title {
-    color: var(--common-font-color-default);
+    color: var(--common-color-default);
   }
 }
 
 .btn-noti {
-  color: var(--common-font-color-highlight);
+  color: var(--common-color-highlight);
   font-weight: bold;
 }
 </style>

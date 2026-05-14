@@ -13,11 +13,12 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
       <div class="h-container" style="z-index: 2;">
         <div class="h-row">
           <div class="h-col h-col-12">
-            <h1 class="hero-title">2026 CERAGEM VISION TOUR<br />in SAPPORO</h1>
+            <h1 class="hero-title">2026 CERAGEM VISION TOUR<br />IN SAPPORO</h1>
             <p class="hero-description">
-              유니시티의 사장님들과 함께 잊지 못할 순간을 만들기 위해 다채로운 프로그램과 행사를 준비했습니다.<br />
-              여행 일정과 프로그램을 확인하시고 자연과 미식,<br />
-              그리고 여유가 공존하는 홋카이도에서 리더 여러분들을 위한 특별한 힐링 여행이 시작 됩니다!
+              26년 상반기 노고에 감사와 축하를 드리며,<br />
+              참여하는 세라제머분들께 소중한 추억이 될 수 있도록<br />
+              다채로운 프로그램과 행사를 준비했습니다.<br />
+              미식(美食)의 세계 삿포로에서 특별한 힐링 여행을 경험하세요!
             </p>
           </div>
         </div>
@@ -37,7 +38,7 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
             <div class="box-wrap">
               <h3 class="box-title">여행 개요</h3>
               <p class="box-content">
-                2026 CERAGEM VISION TOUR in SAPPORO
+                2026 CERAGEM VISION TOUR IN SAPPORO
               </p>
             </div>
           </div>
@@ -45,8 +46,7 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
             <div class="box-wrap">
               <h3 class="box-title">행사 기간</h3>
               <p class="box-content">
-                1차 : 4월13일(월) ~ 4월 17일(금)<br />
-                2차 : 4월17일(금) ~ 4월 21일(화)
+                2026년 8월 19일(수) ~ 8월 21일(금)
               </p>
             </div>
           </div>
@@ -67,13 +67,13 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
             <div class="box-wrap ">
               <h3 class="box-title">DRESS CODE:PINK</h3>
               <p class="box-content">
-                4월 삿포로에서 함께하는 만찬의 드레스 코드는 <strong>핑크(Pink)</strong> 입니다.<br />
-                우리 모두가 만들어내는 ‘핑크빛 벚꽃의 물결’로 특별한 밤을 완성해 주시기 바랍니다.
+                8월 삿포로에서 함께하는 만찬의 드레스 코드는 레드(Red) 입니다.<br />
+                우리 모두가 만들어내는 ‘붉은 세라젬의 물결’로 특별한 밤을 완성해 주시기 바랍니다.
               </p>
             </div>
           </div>
           <div class="h-col h-col-12 h-col-md-3">
-            <ImageComponent :src="'/assets/images/main/img1.jpg'" :aspect-ratio="'auto'" />
+            <ImageComponent :src="'/assets/images/main/img1.jpg'" />
           </div>
         </div>
       </div>
@@ -160,7 +160,16 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
           </div>
         </div>
         <div class="h-row">
-          <div class="h-col h-col-12">
+          <div class="h-col h-col-6">
+            <div class="box-wrap">
+              <h3 class="box-title">세라젬 사업기획팀</h3>
+              <p class="box-content">
+                김한범 매니저 010-8868-2268<br />
+                서지훈 매니저 010-6866-2538
+              </p>
+            </div>
+          </div>
+          <div class="h-col h-col-6">
             <div class="box-wrap">
               <h3 class="box-title">비욘드비즈니스트래블즈</h3>
               <p class="box-content">
@@ -168,13 +177,25 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
                 상담번호 : 070-4116-9082
               </p>
             </div>
+          </div>
+          <div class="h-col h-col-12">
+            <div class="box-wrap box-kakao">
+              <div class="box-content">
+                <img src="@images/ic-kakao.png" alt="카카오톡" class="icon-kakao" />
+                카카오톡 오픈채팅방 운영<br />
+                카카오톡 오픈채팅에서 <strong>‘세라젬 비전투어 삿포로’</strong>에 입장해 주세요.<br />
+                입장 코드 : 0819
+              </div>
+            </div>
+          </div>
+          <!-- <div class="h-col h-col-12">
             <div class="box-wrap box-kakao">
               <a href="http://pf.kakao.com/_xoxkMxon" class="box-content" target="_blank">
                 <img src="@images/ic-kakao.png" alt="카카오톡" class="icon-kakao" />
                 카카오톡에서 <strong>유니시티 리더십트립 삿포로</strong>를 친구추가 하세요.
               </a>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>

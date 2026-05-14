@@ -61,7 +61,7 @@ const modules = [Navigation, Pagination, Autoplay];
       border-radius: 100%;
       margin: 0 4px;
       &.swiper-pagination-bullet-active {
-        background-color: var(--common-font-color-highlight);
+        background-color: var(--common-color-highlight);
       }
     }
   }
@@ -85,6 +85,6 @@ const modules = [Navigation, Pagination, Autoplay];
 /* 네비게이션 버튼 색상 커스텀 예시 */
 :deep(.swiper-button-next),
 :deep(.swiper-button-prev) {
-  color: var(--common-font-color-highlight);
+  color: var(--common-color-highlight);
 }
 </style>

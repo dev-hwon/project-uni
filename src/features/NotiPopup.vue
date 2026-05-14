@@ -80,7 +80,7 @@ watch(isVisible, (newValue) => {
       color: #000;
       cursor: pointer;
       &:hover {
-        color: #C2335F;
+        color: var(--common-color-highlight);
       }
     }
   }
