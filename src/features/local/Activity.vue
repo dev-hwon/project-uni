@@ -5,7 +5,7 @@ import { ImageComponent } from '@/components/image';
 <template>
   <div class="activity-container">
     <h2 class="section-title">액티비티</h2>
-    <ImageComponent :src="'/assets/images/local/activity/activity-img1.jpg'" alt="시코츠호" class="main-img mb20" />
+    <ImageComponent :src="'/assets/images/local/activity/img1.jpg'" alt="시코츠호" class="main-img mb20" />
     <div class="info-section">
       <h3 class="section-subtitle">시코츠호 관광</h3>
       <div class="section-details">
@@ -29,7 +29,7 @@ import { ImageComponent } from '@/components/image';
       </div>
     </div> -->
     <div class="section-divider"></div>
-    <ImageComponent :src="'/assets/images/local/activity/activity-img3.webp'" alt="" class="main-img mb20" />
+    <ImageComponent :src="'/assets/images/local/activity/img3.webp'" alt="" class="main-img mb20" />
     <div class="info-section">
       <h3 class="section-subtitle">오타루 관광</h3>
       <div class="section-details">
@@ -42,7 +42,7 @@ import { ImageComponent } from '@/components/image';
     </div>
 
     <div class="section-divider"></div>
-    <ImageComponent :src="'/assets/images/schedule/day1/img2.jpg'" alt="" class="main-img mb20" />
+    <ImageComponent :src="'/assets/images/local/activity/img4.jpg'" alt="" class="main-img mb20" />
     <div class="info-section">
       <h3 class="section-subtitle">히츠지가오카 전망대</h3>
       <div class="section-details">
@@ -52,7 +52,7 @@ import { ImageComponent } from '@/components/image';
     </div>
 
     <div class="section-divider"></div>
-    <ImageComponent :src="'/assets/images/schedule/day2/b/img3.jpg'" alt="" class="main-img mb20" />
+    <ImageComponent :src="'/assets/images/local/activity/img5.jpg'" alt="" class="main-img mb20" />
     <div class="info-section">
       <h3 class="section-subtitle">홋카이도 신궁</h3>
       <div class="section-details">
@@ -63,7 +63,7 @@ import { ImageComponent } from '@/components/image';
     </div>
 
     <div class="section-divider"></div>
-    <ImageComponent :src="'/assets/images/schedule/day2/b/img5.jpg'" alt="" class="main-img mb20" />
+    <ImageComponent :src="'/assets/images/local/activity/img6.jpg'" alt="" class="main-img mb20" />
     <div class="info-section">
       <h3 class="section-subtitle">오도리 공원</h3>
       <div class="section-details">
