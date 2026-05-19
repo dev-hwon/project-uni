@@ -8,7 +8,7 @@
   --common-color-highlight-hover: #dd547d;
   --common-bg-color: #f8f9fa;
   --common-bg-gradient-default: linear-gradient(135deg, #dedddd 0%, #e8e8e8 100%);
-  --common-bg-gradient: linear-gradient(135deg, var(--common-color-highlight) 0%, var(--common-color-highlight) 100%);
+  --common-bg-gradient: linear-gradient(135deg, rgb(239, 95, 62) 0%, rgb(210,28,57) 100%);
 }
 
 *,
@@ -138,6 +138,10 @@ a {
 }
 .mb40 {
   margin-bottom: 40px;
+}
+
+.mt20 {
+  margin-top: 20px;
 }
 
 /* ==================================================

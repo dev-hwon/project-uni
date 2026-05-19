@@ -7,6 +7,10 @@ const props = defineProps({
     type: String,
     default: ""
   },
+  altPosition: {
+    type: String,
+    default: "bottom"
+  },
   aspectRatio: {
     type: String,
     default: "4 / 3"
@@ -19,6 +23,6 @@ const props = defineProps({
     <div class="image-frame">
       <div class="image-element" :style="`background-image: url(${props.src})`"/>
     </div>
-    <div v-if="props.alt" class="image-alt">{{ props.alt }}</div>
+    <div v-if="props.alt" class="image-alt" :class="`image-alt-${props.altPosition}`">{{ props.alt }}</div>
   </div>
 </template>

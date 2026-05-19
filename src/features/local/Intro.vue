@@ -16,13 +16,13 @@ import { ImageComponent } from '@/components/image';
 
       <div class="info-card">
         <h3 class="info-card-title">🌤️ 지역 날씨</h3>
-        <p>삿포로의 4월은 초봄~초겨울 사이 체감으로, <strong>일교차가 큰 편</strong>입니다. 평균 최고 기온 약  <strong>10~13°C</strong>, 평균 최저 기온 약 <strong>2~5°C</strong> 수준이며, 바람이 불면 체감온도가 더 낮을 수 있습니다.</p>
+        <p>삿포로의 8월은 여름철로, <strong>비교적 습도가 낮고 쾌적한 날씨</strong>가 이어집니다.평균 최고 기온은 약 <strong>26~28°C</strong>, 평균 최저 기온은 약 <strong>20~22°C</strong> 수준이며, 한낮에는 다소 덥게 느껴질 수 있습니다. 다만 아침·저녁으로는 비교적 선선할 수 있습니다.</p>
       </div>
 
       <div class="info-card">
         <h3 class="info-card-title">👕 옷차림</h3>
-        <p><strong>낮</strong>: 긴팔 티/셔츠 + 얇은 니트 또는 가벼운 자켓</p>
-        <p><strong>저녁</strong>: 기온이 떨어지므로 얇은 긴소매 옷을 입거나, 반팔 티에 가디건,  바람막이 등 가벼운 외투를 챙기시기 바랍니다.</p>
+        <p><strong>낮</strong>: 반팔 티셔츠, 얇은 셔츠 등 가벼운 여름 복장 추천</p>
+        <p><strong>저녁</strong>: 자외선 차단 및 실내 냉방 대비를 위해 얇은 가디건 또는 가벼운 겉옷을 준비하시기 바랍니다.</p>
       </div>
 
       <div class="info-card">
@@ -46,9 +46,7 @@ import { ImageComponent } from '@/components/image';
         <h3 class="info-card-title">⚠️ 주의 사항</h3>
         <ul>
           <li>일본은 전반적으로 치안이 안전한 편이나, 관광지/번화가에서는 소지품 분실·도난에 유의하시기 바랍니다.</li>
-          <li>4월에도 기온이 낮고 비/바람이 있을 수 있어 체온 관리에 유의해 주세요.</li>
-          <li>도로 횡단 시 신호 준수, 자전거/차량 통행에 주의 바랍니다.</li>
-          <li>※ (온천 이용 시) 문신, 타투, 입장 규정은 시설별로 다를 수 있으니 안내를 따르시기 바랍니다.</li>
+          <li>8월은 자외선이 강하고 낮 기온이 높아질 수 있으므로,모자·선크림·휴대용 선풍기 등을 준비하시는 것을 추천드립니다. 또한 간헐적으로 비가 내릴 수 있어 작은 우산이나 우비를 준비하시면 편리합니다.도로 횡단 시 신호 준수 및 자전거/차량 통행에 유의 바랍니다.</li>
         </ul>
       </div>
     </div>

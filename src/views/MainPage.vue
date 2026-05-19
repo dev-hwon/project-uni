@@ -63,17 +63,14 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
           </div>
         </div>
         <div class="h-row">
-          <div class="h-col h-col-12 h-col-md-9">
+          <div class="h-col h-col-12">
             <div class="box-wrap ">
-              <h3 class="box-title">DRESS CODE:PINK</h3>
+              <h3 class="box-title">DRESS CODE: RED</h3>
               <p class="box-content">
                 8월 삿포로에서 함께하는 만찬의 드레스 코드는 레드(Red) 입니다.<br />
                 우리 모두가 만들어내는 ‘붉은 세라젬의 물결’로 특별한 밤을 완성해 주시기 바랍니다.
               </p>
             </div>
-          </div>
-          <div class="h-col h-col-12 h-col-md-3">
-            <ImageComponent :src="'/assets/images/main/img1.jpg'" />
           </div>
         </div>
       </div>
@@ -182,9 +179,10 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
             <div class="box-wrap box-kakao">
               <div class="box-content">
                 <img src="@images/ic-kakao.png" alt="카카오톡" class="icon-kakao" />
-                카카오톡 오픈채팅방 운영<br />
-                카카오톡 오픈채팅에서 <strong>‘세라젬 비전투어 삿포로’</strong>에 입장해 주세요.<br />
-                입장 코드 : 0819
+                <span class="box-title">카카오톡 오픈채팅방 운영</span>
+              </div>
+              <div class="box-content mt20">
+                카카오톡 오픈채팅방은 추후 참가자 확정시 안내드립니다
               </div>
             </div>
           </div>
@@ -257,6 +255,23 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
         }
       }
     }
+  }
+}
+.dresscode-section {
+  .box-wrap {
+    border-width: 2px;
+    border-color: transparent;
+    border-image-slice: 1;
+    background-image: linear-gradient(to right, var(--common-bg-color), var(--common-bg-color)), var(--common-bg-gradient);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    color: #fff;
+  }
+}
+.box-kakao {
+  .box-title {
+    color: #000;
+    margin-left: 10px;
   }
 }
 </style>

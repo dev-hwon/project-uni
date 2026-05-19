@@ -5,8 +5,7 @@ import { ImageComponent } from '@/components/image';
 <template>
   <div class="activity-container">
     <h2 class="section-title">액티비티</h2>
-    <div class="activity-soon">업데이트 예정</div>
-    <!-- <ImageComponent :src="'/assets/images/local/activity/activity-img1.jpg'" alt="시코츠호" class="main-img mb20" />
+    <ImageComponent :src="'/assets/images/local/activity/activity-img1.jpg'" alt="시코츠호" class="main-img mb20" />
     <div class="info-section">
       <h3 class="section-subtitle">시코츠호 관광</h3>
       <div class="section-details">
@@ -17,7 +16,7 @@ import { ImageComponent } from '@/components/image';
         <strong>자연의 고요함과 지역의 맛을 함께 즐기는 홋카이도의 특별한 힐링 여행지</strong>입니다.
       </div>
     </div>
-    <div class="section-divider"></div>
+    <!-- <div class="section-divider"></div>
     <ImageComponent :src="'/assets/images/local/activity/activity-img2.jpg'" alt="" class="main-img mb20" />
     <div class="info-section">
       <h3 class="section-subtitle">노보리베츠 관광</h3>
@@ -28,7 +27,7 @@ import { ImageComponent } from '@/components/image';
         자연의 신비와 역사, 문화가 어우러진<br />
         <strong>노보리베츠의 매력을 한 번에 만나는 특별한 여행지</strong>입니다.
       </div>
-    </div>
+    </div> -->
     <div class="section-divider"></div>
     <ImageComponent :src="'/assets/images/local/activity/activity-img3.webp'" alt="" class="main-img mb20" />
     <div class="info-section">
@@ -71,7 +70,7 @@ import { ImageComponent } from '@/components/image';
         삿포로 중심부를 가로지르는 도심 공원으로, 시민들의 휴식 공간이자 다양한 축제가 열리는 장소입니다.<br />
         넓은 녹지와 산책로가 있어 삿포로의 <strong>여유로운 분위기</strong>를 느낄 수 있는 대표적인 도심 공원입니다.
       </div>
-    </div> -->
+    </div>
   </div>
 </template>
 <style lang="scss" scoped>
@@ -96,10 +95,5 @@ import { ImageComponent } from '@/components/image';
     margin-bottom: 12px;
   }
 }
-.activity-soon {
-  font-size: 18px;
-  color: var(--common-color-highlight);
-  text-align: center;
-  padding: 60px 0;
-}
+
 </style>

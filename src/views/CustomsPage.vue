@@ -76,7 +76,7 @@ const handleOpenPopup = () => {
                   항공편명
                 </div>
                 <ul class="list-dot">
-                  <li>업데이트 예정</li>
+                  <li>대한항공 : 출국편 <strong>KE 765</strong> / 귀국편 <strong>KE 766</strong></li>
                 </ul>
               </div>
             </div>
