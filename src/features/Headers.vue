@@ -31,4 +31,18 @@
     aspect-ratio: 386 / 113;
   }
 }
+@include breakpoint('s') {
+  .header {
+    background-size: 80px 80px;
+    .h-container {
+      background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1) 12%, rgba(255,255,255,1) 88%, rgba(255,255,255,0));
+      background-color: transparent;
+      .h-row {
+        .h-col {
+          // background-color: #fff;
+        }
+      }
+    }
+  }
+}
 </style>

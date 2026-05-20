@@ -11,8 +11,7 @@ import { ImageComponent } from '@/components/image';
       <div class="section-details">
         일본 최북단의 얼지 않는 호수, <strong>시코츠호</strong>.<br />
         일본 최북단의 얼음이 얼지 않는 <strong>부동호</strong>로 알려져 있습니다.<br />
-        맑고 깊은 호수 풍경과 자연 속에 놓인 <strong>야마엔 철교</strong>,<br />
-        그리고 시코츠호의 명물 <strong>감자떡(이모모찌)</strong>까지.<br />
+        맑고 깊은 호수 풍경과 자연 속에 놓인 <strong>야마엔 철교</strong>, 그리고 시코츠호의 명물 <strong>감자떡(이모모찌)</strong>까지.<br />
         <strong>자연의 고요함과 지역의 맛을 함께 즐기는 홋카이도의 특별한 힐링 여행지</strong>입니다.
       </div>
     </div>
@@ -35,8 +34,7 @@ import { ImageComponent } from '@/components/image';
       <div class="section-details">
         오타루는 일본의 훗카이도에 위치한 중요한 항구 도시로서,<br />
         낭만적인 풍경의 <strong>오타루 운하</strong>,<br />
-        아름다운 선율 가득한 공간 <strong>오르골당</strong>,<br />
-        그리고 감각적인 상점들이 이어진 골목들까지,<br />
+        아름다운 선율 가득한 공간 <strong>오르골당</strong>, 그리고 감각적인 상점들이 이어진 골목들까지,<br />
         역사와 감성, 그리고 <strong>훗카이도의 분위기를 천천히 걸으며 즐기는 매력적인 도시, 오타루</strong>입니다.
       </div>
     </div>

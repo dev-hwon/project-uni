@@ -23,6 +23,7 @@
   user-select: none;
   -webkit-tap-highlight-color: transparent;
   letter-spacing: -1px;
+  word-break: break-all;
 }
 
 html,
@@ -262,7 +263,7 @@ a {
       padding-left: math.div(24px, 2);
       padding-right: math.div(24px, 2);
       min-height: 1px;
-      transition: all 0.2s;
+      transition: width 0.2s;
     }
   }
 

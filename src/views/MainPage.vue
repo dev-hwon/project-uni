@@ -157,7 +157,7 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
           </div>
         </div>
         <div class="h-row">
-          <div class="h-col h-col-6">
+          <div class="h-col h-col-6 h-col-sm-12">
             <div class="box-wrap">
               <h3 class="box-title">세라젬 사업기획팀</h3>
               <p class="box-content">
@@ -166,7 +166,7 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
               </p>
             </div>
           </div>
-          <div class="h-col h-col-6">
+          <div class="h-col h-col-6 h-col-sm-12">
             <div class="box-wrap">
               <h3 class="box-title">비욘드비즈니스트래블즈</h3>
               <p class="box-content">
