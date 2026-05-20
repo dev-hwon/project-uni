@@ -23,7 +23,6 @@
   user-select: none;
   -webkit-tap-highlight-color: transparent;
   letter-spacing: -1px;
-  word-break: break-all;
 }
 
 html,
@@ -49,7 +48,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   user-select: none;
   -webkit-user-drag: none;
-  word-break: keep-all;
+  word-break: break-all;
 }
 
 ol,
@@ -456,6 +455,9 @@ a {
 .section {
   padding: 20px 10px;
 
+  @include breakpoint('s') {
+    padding: 20px 0;
+  }
   @include breakpoint('m') {
     padding: 40px 0;
   }

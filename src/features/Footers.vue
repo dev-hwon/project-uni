@@ -30,4 +30,11 @@
     color: #999;
   }
 }
+@include breakpoint('s') {
+  .footer {
+    .col-copyright {
+      margin-top: 10px;
+    }
+  }
+}
 </style>

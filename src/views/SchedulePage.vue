@@ -415,4 +415,11 @@ const scheduleInfo = ref([
     border-top: 1px solid #eee;
   }
 }
+@include breakpoint('s') {
+  .schedule-page {
+    .day-card {
+      padding: 12px;
+    }
+  }
+}
 </style>
