@@ -52,9 +52,9 @@ import { ImageComponent } from '@/components/image';
       <div class="section-subtitle">별관</div>
       <div class="info-grid">
         <div class="info-card default">
-          <div class="info-card-title">🍝 레스토랑: Northern Terrace(서양식)</div>
+          <div class="info-card-title">🍝 레스토랑: BIG JUG</div>
           <p><strong>위치</strong>: 별관 1층</p>
-          <p><strong>운영 시간</strong>: 11:30 - 14:30 / 17:00 - 20:30</p>
+          <p><strong>운영 시간</strong>: 11:30 - 14:00 / 17:00 - 21:00</p>
         </div>
         <div class="info-card default">
           <div class="info-card-title">🍸 라운지&바: Old saloon</div>

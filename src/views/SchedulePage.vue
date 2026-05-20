@@ -121,7 +121,6 @@ const scheduleInfo = ref([
                 <div class="h-row h-row-mb">
                   <div class="h-col h-col-12">
                     <div class="activity-section">
-                      <span class="section-badge">유니팀</span>
                       <div class="activity-description">{{ scheduleInfo[0].dates.day2.activities.common }}</div>
                       <div class="h-row h-row-mb">
                         <div class="h-col h-col-12 h-col-md-6">

@@ -4,7 +4,7 @@
   <header class="header">
     <div class="h-container">
       <div class="h-row h-row-align-center h-row-justify-center">
-        <div class="h-col h-col-8">
+        <div class="h-col h-col-8 h-col-sm-10 h-col-md-8">
           <div class="logo">
             <img src="@images/header-bg-text.png" alt="Logo" />
           </div>

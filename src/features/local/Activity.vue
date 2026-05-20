@@ -12,7 +12,7 @@ import { ImageComponent } from '@/components/image';
         일본 최북단의 얼지 않는 호수, <strong>시코츠호</strong>.<br />
         일본 최북단의 얼음이 얼지 않는 <strong>부동호</strong>로 알려져 있습니다.<br />
         맑고 깊은 호수 풍경과 자연 속에 놓인 <strong>야마엔 철교</strong>,<br />
-        그리고 시코츠호의 명물 <strong>에그포테이토</strong>까지.<br />
+        그리고 시코츠호의 명물 <strong>감자떡(이모모찌)</strong>까지.<br />
         <strong>자연의 고요함과 지역의 맛을 함께 즐기는 홋카이도의 특별한 힐링 여행지</strong>입니다.
       </div>
     </div>
@@ -41,7 +41,7 @@ import { ImageComponent } from '@/components/image';
       </div>
     </div>
 
-    <div class="section-divider"></div>
+    <!-- <div class="section-divider"></div>
     <ImageComponent :src="'/assets/images/local/activity/img4.jpg'" alt="" class="main-img mb20" />
     <div class="info-section">
       <h3 class="section-subtitle">히츠지가오카 전망대</h3>
@@ -49,7 +49,7 @@ import { ImageComponent } from '@/components/image';
         광활한 초원과 삿포로 시내 전망을 동시에 즐길 수 있는 삿포로 대표 전망 명소입니다.<br />
         이곳에는 <strong>“Boys, be ambitious!”</strong>라는 명언으로 유명한 <strong>클라크 박사 동상</strong>이 있어 삿포로를 상징하는 사진 명소로 알려져 있습니다.
       </div>
-    </div>
+    </div> -->
 
     <div class="section-divider"></div>
     <ImageComponent :src="'/assets/images/local/activity/img5.jpg'" alt="" class="main-img mb20" />
@@ -69,6 +69,16 @@ import { ImageComponent } from '@/components/image';
       <div class="section-details">
         삿포로 중심부를 가로지르는 도심 공원으로, 시민들의 휴식 공간이자 다양한 축제가 열리는 장소입니다.<br />
         넓은 녹지와 산책로가 있어 삿포로의 <strong>여유로운 분위기</strong>를 느낄 수 있는 대표적인 도심 공원입니다.
+      </div>
+    </div>
+
+    <div class="section-divider"></div>
+    <ImageComponent :src="'/assets/images/local/activity/img7.png'" alt="" class="main-img mb20" />
+    <div class="info-section">
+      <h3 class="section-subtitle">구 북해도 도청사</h3>
+      <div class="section-details">
+        구 북해도청사는 1888년에 건립된 미국식 <strong>네오바로크 양식의 역사적 건축물</strong>로, 홋카이도 개척 시대의 상징적인 랜드마크입니다.<br />
+        붉은 벽돌 외관으로 인해 <strong>‘아카렌가(붉은 벽돌 청사)’</strong>라는 애칭으로 불리며, 현재는 홋카이도의 대표적인 관광 명소로 사랑받고 있습니다.
       </div>
     </div>
   </div>

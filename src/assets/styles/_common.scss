@@ -289,10 +289,23 @@ a {
       width: #{col($i)};
     }
   }
-
-  @include breakpoint('l') {
+  @include breakpoint('s') {
+    @for $i from 1 through 12 {
+      .h-col-sm-#{$i} {
+        width: #{col($i)};
+      }
+    }
+  }
+  @include breakpoint('m') {
     @for $i from 1 through 12 {
       .h-col-md-#{$i} {
+        width: #{col($i)};
+      }
+    }
+  }
+  @include breakpoint('l') {
+    @for $i from 1 through 12 {
+      .h-col-lg-#{$i} {
         width: #{col($i)};
       }
     }
