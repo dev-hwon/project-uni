@@ -1,7 +1,8 @@
 <script setup>
 import { ref } from 'vue';
 import { SwiperComponent } from '@/components/swiper';
-const imageprefix = '/assets/images/local/recommends/';
+const baseUrl = import.meta.env.VITE_BASE_IMG_URL || ''
+const imageprefix = baseUrl + '/assets/images/local/recommends/';
 const q1Data = ref([{ title: 'slide1', image: imageprefix + 'q1-1.jpeg' },{ title: 'slide2', image: imageprefix + 'q1-2.png' },{ title: 'slide3', image: imageprefix + 'q1-3.png' }]);
 const q2Data = ref([{ title: 'slide1', image: imageprefix + 'q2-1.jpeg' },{ title: 'slide2', image: imageprefix + 'q2-2.png' }]);
 const q3Data = ref([{ title: 'slide1', image: imageprefix + 'q3-1.jpeg' },{ title: 'slide2', image: imageprefix + 'q3-2.png' },{ title: 'slide3', image: imageprefix + 'q3-3.png' }]);
