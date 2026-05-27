@@ -64,13 +64,13 @@ import { ImageComponent } from '@/components/image';
       </div>
     </div>
 
-    <div class="info-section">
+    <div class="info-section display-none">
       <h3 class="section-title">기타 정보</h3>
-      <!-- <div class="info-list">
+      <div class="info-list">
         <div class="info-item">
           <strong>안내 데스크</strong>: 안내데스크 : 1층 로비 / 운영시간 : 07:00 - 21:00
         </div>
-      </div> -->
+      </div>
 
       <div class="alert-box warning">
         <p>
