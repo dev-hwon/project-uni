@@ -33,7 +33,7 @@ import { ImageComponent } from '@/components/image';
       <div class="section-subtitle">동관</div>
       <div class="info-grid">
         <div class="info-card default">
-          <div class="info-card-title">🍽️ 조식당: Norther Terrace</div>
+          <div class="info-card-title">🍽️ 조식당: Northern Terrace</div>
           <p><strong>위치</strong>: 동관 1층</p>
           <p><strong>운영 시간</strong>: 06:30 - 10:00</p>
         </div>
@@ -66,11 +66,11 @@ import { ImageComponent } from '@/components/image';
 
     <div class="info-section">
       <h3 class="section-title">기타 정보</h3>
-      <div class="info-list">
+      <!-- <div class="info-list">
         <div class="info-item">
           <strong>안내 데스크</strong>: 안내데스크 : 1층 로비 / 운영시간 : 07:00 - 21:00
         </div>
-      </div>
+      </div> -->
 
       <div class="alert-box warning">
         <p>
