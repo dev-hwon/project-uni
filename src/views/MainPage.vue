@@ -64,12 +64,19 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
         </div>
         <div class="h-row">
           <div class="h-col h-col-12">
-            <div class="box-wrap ">
-              <h3 class="box-title">DRESS CODE: RED</h3>
-              <p class="box-content">
-                8월 삿포로에서 함께하는 만찬의 드레스 코드는 레드(Red) 입니다.<br />
-                우리 모두가 만들어내는 ‘붉은 세라젬의 물결’로 특별한 밤을 완성해 주시기 바랍니다.
-              </p>
+            <div class="box-wrap pb0">
+              <div class="h-row h-row-mb h-row-align-center">
+                <div class="h-col h-col-7 h-col-sm-12">
+                  <h3 class="box-title">DRESS CODE: RED</h3>
+                  <p class="box-content">
+                    8월 삿포로에서 함께하는 만찬의 드레스 코드는 레드(Red) 입니다.<br />
+                    우리 모두가 만들어내는 ‘붉은 세라젬의 물결’로 특별한 밤을 완성해 주시기 바랍니다.
+                  </p>
+                </div>
+                <div class="h-col h-col-5 h-col-sm-12 nomargin">
+                  <ImageComponent :src="'/assets/images/main/img1.png'" class="dresscode-section-image" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
