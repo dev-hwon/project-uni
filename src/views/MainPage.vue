@@ -64,7 +64,7 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
         </div>
         <div class="h-row">
           <div class="h-col h-col-12">
-            <div class="box-wrap pb0">
+            <div class="box-wrap">
               <div class="h-row h-row-mb h-row-align-center">
                 <div class="h-col h-col-7 h-col-sm-12">
                   <h3 class="box-title">DRESS CODE: RED</h3>
@@ -273,6 +273,7 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
     color: #fff;
+    padding-bottom: 0;
   }
 }
 .box-kakao {
