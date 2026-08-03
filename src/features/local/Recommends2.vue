@@ -88,27 +88,27 @@ const r4Data = ref([{ title: 'slide1', image: imageprefix + 'r4.png' }]);
       </div>
 
       <div class="shop-card">
-        <div class="shop-label">의류판매점</div>
+        <div class="shop-label">종합쇼핑몰</div>
         <SwiperComponent :items="r4Data" />
-        <h4 class="shop-name">BEAMS SAPPORO</h4>
+        <h4 class="shop-name">삿포로 스텔라 플레이스</h4>
         <ul class="shop-info">
           <li>
             <div class="op-name">주요상품</div>
             <div class="op-value">
-              BEAMS 자체 옷 / 각종 타사 의류, 유명 패션 셀렉트 스토어
+              트렌디패션 브랜드, 코스메틱, 식당가
             </div>
           </li>
           <li>
             <div class="op-name">운영시간</div>
-            <div class="op-value">11:00 ~ 20:00</div>
+            <div class="op-value">쇼핑: 10:00 ~ 20:00<br />음식점: 11:00 ~ 21:30</div>
           </li>
           <li>
             <div class="op-name">비 고</div>
-            <div class="op-value">1층 여성복, 2층 남성복 / 면세 가능</div>
+            <div class="op-value">JR 삿포로역 직결/ 매장별 텍스프리(면세) 적용 가능</div>
           </li>
           <li>
             <div class="op-name">위치</div>
-            <div class="op-value"><a href="https://maps.app.goo.gl/QkG8uX2dAdhWyZXM9" target="_blank" class="btn-link">구글맵 바로가기</a></div>
+            <div class="op-value"><a href="https://maps.app.goo.gl/Ez4rXYYqWABeMPbK8" target="_blank" class="btn-link">구글맵 바로가기</a></div>
           </li>
         </ul>
       </div>
