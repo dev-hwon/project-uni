@@ -189,7 +189,7 @@ import ImageComponent from '@/components/image/ImageComponent.vue';
                 <span class="box-title">카카오톡 오픈채팅방 운영</span>
               </div>
               <div class="box-content mt20">
-                카카오톡 오픈채팅방은 추후 참가자 확정시 안내드립니다
+                카카오톡 → 상단 돋보기 → '세라젬 비전투어' 검색 →  오픈채팅 <strong>'2026 세라젬 비전투어 in SAPPORO'</strong> 입장 →  입장코드: 260819
               </div>
             </div>
           </div>
